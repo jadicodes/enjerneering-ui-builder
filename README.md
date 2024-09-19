@@ -1,4 +1,4 @@
-# CapstoneProjectTemplate /* Replace this line with the title of your project */
+# enJerneering UI Builder
 
 ## **Summary**
 
@@ -6,18 +6,18 @@ Put a very high-level summary of the project.
 
 ## **Team Members**
 
-- Joe Black
-- Joe Pesci
-- Joe Dalton
+- Jadi Miller
+- Jake King
+- Pierson Silvers
+- Payton Hutsell
 
 ## **Client Partner Information**
 
 ### *Company:*
-WHATEVER COMPANY or CORRESPONDENCE
+ENJERNEERING
 
 ### *People:*
-- Jane Fonda
-- Jane Lynch
+- Jerrod
 
 ## **Links**
 
