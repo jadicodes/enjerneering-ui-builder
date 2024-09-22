@@ -29,7 +29,6 @@ ENJERNEERING
 
 ## **Code Repositories**
 
-- [Mobile App - Android](https://www.github.com/WHEREEVER_THE_ANDROID_CODE_IS/)
-- [Php Backend](https://www.github.com/WHEREEVER_THE_PHP_CODE_IS)
-- Others if more.
+- [enJerneering UI Kit](https://github.com/enJerneering/enJerneering-ui)
+
 
