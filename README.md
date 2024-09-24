@@ -23,6 +23,7 @@ ENJERNEERING
 ## **Links**
 
 - [Project description](ProjectDescription.md)
+- [Project Prototype (Figma board)](https://www.figma.com/design/dEBdMde049FmgOuyy48Syn/UI-Builder-2024?node-id=0-1&node-type=canvas)
 - [Team meeting minutes](MeetingMinutes/Team)
 - [Mentor meeting minutes](MeetingMinutes/Mentor)
 - [Client partner meeting minutes](MeetingMinutes/ClientPartner)
