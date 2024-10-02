@@ -3,7 +3,7 @@
 2024/10/01/11:00 am
 
 ## Meeting End Time
-2024/09/19/12:15 pm
+2024/10/01/12:15 pm
 
 ## Location/Medium
 Remote, Zoom
