@@ -6,7 +6,7 @@ A User will be able to create a project to design their website, which can be sa
 The system will allow a user to edit and update previously saved projects (UC6) **HIGH**
 
 ## FR 3
-The setup page for a new project will allow the user to imput key information for their web project, which can be used to create a base template for their project (UC5) **HIGH**
+The setup page for a new project will allow the user to input key information for their web project, which can be used to create a base template for their project (UC5) **HIGH**
 
 ## FR 4
 Component options can be dragged and dropped by a user into the UI builder to design the layout for their project (UC1) **HIGH**
