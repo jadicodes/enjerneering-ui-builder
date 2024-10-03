@@ -1,12 +1,14 @@
-```mermaid
 classDiagram
     class WebsiteHub {
+    }
+
+    class Workshop {
     }
 
     class EditExistingProject {
     }
 
-    class ProjectSetup {
+    class CreateNewProject {
     }
 
     class StartWithTemplate {
@@ -15,10 +17,7 @@ classDiagram
     class StartFromScratch {
     }
 
-    class Workspace {
-    }
-
-    class ComponentsSelection {
+    class ComponentSelection {
     }
 
     class PageBuilder {
@@ -27,13 +26,16 @@ classDiagram
     class SaveToJSON {
     }
 
-    WebsiteHub --> EditExistingProject
-    WebsiteHub --> ProjectSetup
-    ProjectSetup --> StartWithTemplate
-    ProjectSetup --> StartFromScratch
-    StartFromScratch --> Workspace
-    Workspace --> ComponentsSelection
-    Workspace --> PageBuilder
-    Workspace --> SaveToJSON
-    SaveToJSON --> WebsiteHub
-    EditExistingProject --> Workspace
+    WebsiteHub --> Workshop : "Log in to access"
+    Workshop --> EditExistingProject : "Edit existing project"
+    Workshop --> CreateNewProject : "Create new project"
+    CreateNewProject --> StartWithTemplate : "Start with template"
+    CreateNewProject --> StartFromScratch : "Start from scratch"
+    StartFromScratch --> ComponentSelection : "Select components"
+    StartFromScratch --> PageBuilder : "Build pages"
+    PageBuilder --> SaveToJSON : "Save project as JSON"
+    SaveToJSON --> CreateNewProject : "Project data saved"
+    EditExistingProject --> ComponentSelection : "Modify components"
+    EditExistingProject --> PageBuilder : "Modify pages"
+
+    SaveToJSON --> WebsiteHub : "Framework code generated"
