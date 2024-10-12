@@ -1,31 +1,76 @@
 # Functional Requirements
-## FR 1
-A User will be able to create a project to design their website, which can be saved for future updating (UC4) **HIGH**
 
-## FR 2
-The system will allow a user to edit and update previously saved projects (UC6) **HIGH**
+- FR1: Users can create new projects
+  - High priority
+  - UC1/UC5
 
-## FR 3
-The setup page for a new project will allow the user to input key information for their web project, which can be used to create a base template for their project (UC5) **HIGH**
+- FR2: Users can save projects
+  - High priority
+  - UC1/UC5
 
-## FR 4
-Component options can be dragged and dropped by a user into the UI builder to design the layout for their project (UC1) **HIGH**
+- FR3: Users can delete projects
+  - High priority
+  - UC9
 
-## FR 5
-Projects can include multiple pages that can follow the same design layout and have individual functionalities (UC8) **MEDIUM**
+- FR4: Users can access saved projects through a main dashboard
+  - High priority
+  - UC6
 
-## FR 6
-Projects can be exported to a generalized JSON format, which can be converted into next.js to create the final website (UC2) **MEDIUM**
+- FR5: Users can edit previously saved projects
+  - High priority
+  - UC6
 
-## FR 7
-Pre-designed templates are available for users when they create their project (UC5) **LOW**
+- FR6: A setup page is present for users to input key information for their project
+  - High priority
+  - UC5
+
+- FR7: A base template is created for a user's new project based upon the information given during the setup
+  - High priority
+  - UC5
+
+- FR8: UI components can be added to a layout design for a user's project
+  - High priority
+  - UC1/UC8
+
+- FR9: UI components are able to be dragged and dropped within the builder
+  - High priority
+  - UC1
+
+- FR10: User projects can have multiple pages
+  - Medium priority
+  - UC5/UC6
+
+- FR11: Users' designed layout can be applied to individual pages of their project
+  - Medium priority
+  - UC5/UC8
+
+- FR12: Users can add backend functionality to their pages
+  - Medium priority
+  - UC7
+
+- FR13: User projects can be exported in a JSON format
+  - Low priority
+  - UC2
+
+- FR14: User project JSON data can be converted into a next.js for website deployment
+  - Low priority
+  - UC2
+
+- FR15: Pre-designed templates are avaiable for users to choose from at project creation
+  - Low priority
+  - UC5
 
 # Non-Functional Requirements
 
-## NR 1
-User's projects and information are safely and reliably stored to ensure their work is not lost (UC7) **HIGH**
+- NR1: User project data is safely stored in a databse
+  - High priority
+  - UC6
+ 
+- NR2: UI builder is optimized and runs smoothly
+  - Medium priority
+  - UC1
 
-## NR 2
-UI builder is optimized and organized as to not hinder users' workflows (UC3) **LOW**
+- NR3: Code is clean and readable for future developers of the UI builder project
+  - High Priority
 
-***(Most Non-Functional are covered through the use of external services within the development process)***
+***(Most Non-Functional Requirements and Functional Requirements that deal with User Accounts are covered through the use of external services within the development process)***
