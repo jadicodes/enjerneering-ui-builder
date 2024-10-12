@@ -125,13 +125,3 @@
   3. Lisa navigates to the bottom of the page where it says "Delete Project" and presses the button.
   4. After ensuring that this decision is final, Lisa is returned to her workspace and the website is not there.
   - **Connected Business Requirement**: BR2 (Enhance Customization and Client Control)
-  
-- **UC10: Clients can delete websites that they no longer want.**
-- **Explanation**: Lisa hears from a client that they are no longer interested in building their website. The freelancer needs to delete the page so that it does not clog up his workspace.
-- **Actors**: Lisa
-- **Flow**:
-  1. Lisa opens her project workspace.
-  2. Lisa presses the "Project Settings" button.
-  3. Lisa navigates to the bottom of the page where it says "Delete Project" and presses the button.
-  4. After ensuring that this decision is final, Lisa is returned to her workspace and the website is not there.
-  - **Connected Business Requirement**: BR2 (Enhance Customization and Client Control)
