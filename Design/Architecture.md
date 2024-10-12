@@ -1,3 +1,3 @@
 # Architecture
 
-![architecture](https://github.com/user-attachments/assets/e94c9181-22cc-4a27-a990-9b4a344fe74e)
+![architecture](https://github.com/user-attachments/assets/e2f04733-21c7-4066-93d1-99803d0ee50e)
