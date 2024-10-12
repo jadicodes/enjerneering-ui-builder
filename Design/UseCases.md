@@ -29,7 +29,7 @@
 
 # Use Cases
 
-- **UC1: Streamlined Web Development Process**
+- **UC1: A client can create a website using a streamlined process.**
   - **Explanation**: This use case covers the need to streamline the website development process for faster project turnaround times, allowing Adams Digital Solutions to handle more projects simultaneously. The use of enJerneering's UI Builder helps the agency meet tight deadlines without sacrificing quality.
   - **Actors**: Michael Adams, Development Team, enJerneering UI Builder System
   - **Flow**:
@@ -40,7 +40,7 @@
     5. The website goes live, meeting the project deadline.
   - **Connected Business Requirement**: BR1 (Increase Efficiency and Reduce Turnaround Times)
 
-- **UC2: Customization and Full Code Ownership for Clients**
+- **UC2: Clients have full code ownership of the code and can customize it to meet their needs.**
   - **Explanation**: This use case highlights the importance of offering full customization and code ownership to clients. This feature sets Adams Digital Solutions apart by giving clients control over their websites, ensuring flexibility for future changes.
   - **Actors**: Clients, Development Team, enJerneering UI Builder System
   - **Flow**:
@@ -51,7 +51,7 @@
     5. The client can make any future changes using their code.
   - **Connected Business Requirement**: BR2 (Enhance Customization and Client Control)
 
-- **UC3: SEO Optimization During Development**
+- **UC3: Clients can integrate SEO integration into their website.**
   - **Explanation**: This use case involves the SEO optimization built into the UI Builder, which helps improve the visibility of client websites. By proactively optimizing websites during development, Adams Digital Solutions ensures better search engine rankings for their clients.
   - **Actors**: Development Team, Clients, enJerneering UI Builder System
   - **Flow**:
@@ -62,7 +62,7 @@
     5. The website goes live with enhanced SEO features.
   - **Connected Business Requirement**: BR3 (Improve SEO and Increase Online Visibility)
 
-- **UC4: Website Creation for Marketing Clients**
+- **UC4: Clients can create a website that helps market itself with keywords and SEO utilization.**
   - **Explanation**: This use case is specific to Lisa Brown, who needs to quickly create websites for her diverse marketing clients. Using the UI Builder’s drag-and-drop feature, Lisa can build SEO-optimized websites that meet client expectations and drive results, despite managing multiple projects.
   - **Actors**: Lisa Brown, Clients, enJerneering UI Builder System
   - **Flow**:
@@ -73,7 +73,7 @@
     5. The website is finalized and launched, meeting client goals for design and functionality.
   - **Connected Business Requirement**: BR4 (Increase Efficiency and Deliver High-Quality Marketing Websites)
 
-- **UC5: Enhanced Style Customization for Freelancers**
+- **UC5: Freelancers can customize a website template to suit their client's needs.**
   - **Explanation**: Lisa needs to provide unique, branded websites for each of her clients. With enJerneering’s diverse style presets and customization tools, Lisa can quickly tailor websites to reflect each client’s brand, allowing her to focus on other marketing services while meeting deadlines.
   - **Actors**: Lisa Brown, Clients, enJerneering UI Builder System
   - **Flow**:
@@ -84,7 +84,7 @@
     5. The website is launched, representing the client’s brand effectively.
   - **Connected Business Requirement**: BR5 (Enhance Branding and Customization for Marketing Clients)
 
-- **UC6: Smart Page Management for Continuous Updates**
+- **UC6: Freelancers can update their websites in real-time using the smart page management system.**
   - **Explanation**: As a freelancer managing multiple projects, Lisa needs a quick and efficient way to update and maintain client websites. The smart page management system in enJerneering’s UI Builder allows her to make real-time adjustments, ensuring client websites remain current and relevant.
   - **Actors**: Lisa Brown, Clients, enJerneering UI Builder System
   - **Flow**:
@@ -95,7 +95,7 @@
     5. The updated website is relaunched, keeping it fresh and up-to-date.
   - **Connected Business Requirement**: BR6 (Maintain Website Freshness and Client Satisfaction)
 
-- **UC7: Specialized Website Development for Health and Wellness Clients**
+- **UC7: Specialized clients can add appointment scheduling and class booking forms to their websites.**
   - **Explanation**: Mark Davis uses enJerneering's UI Builder to create highly specialized websites for health and wellness professionals. These websites require industry-specific features like appointment scheduling, SEO optimization, and content management.
   - **Actors**: Mark Davis, Clients, enJerneering UI Builder System
   - **Flow**:
@@ -106,7 +106,7 @@
     5. The client reviews the website, and Mark makes any necessary adjustments before the website goes live.
   - **Connected Business Requirement**: BR7 (Provide Specialized Features for Health and Wellness Clients)
 
-- **UC8: Efficient Content Management for Niche Clients**
+- **UC8: Clients can independently manage content generation.**
   - **Explanation**: Mark often works with clients who frequently update their websites with blogs, recipes, or health tips. The smart page management system allows him to organize content hierarchies efficiently, ensuring clients can manage updates without his constant input.
   - **Actors**: Mark Davis, Clients, enJerneering UI Builder System
   - **Flow**:
@@ -114,4 +114,24 @@
     2. He sets up an intuitive content management system that the client can update themselves.
     3. Clients log in to the system to post new content such as blog entries or updates.
     4. Mark monitors the system to ensure everything functions smoothly.
-    5. The website is regularly
+   - **Connected Business Requirement**: BR2 (Enhance Customization and Client Control)
+ 
+- **UC9: Clients can delete websites that they no longer want.**
+- **Explanation**: Lisa hears from a client that they are no longer interested in building their website. The freelancer needs to delete the page so that it does not clog up his workspace.
+- **Actors**: Lisa
+- **Flow**:
+  1. Lisa opens her project workspace.
+  2. Lisa presses the "Project Settings" button.
+  3. Lisa navigates to the bottom of the page where it says "Delete Project" and presses the button.
+  4. After ensuring that this decision is final, Lisa is returned to her workspace and the website is not there.
+  - **Connected Business Requirement**: BR2 (Enhance Customization and Client Control)
+  
+- **UC10: Clients can delete websites that they no longer want.**
+- **Explanation**: Lisa hears from a client that they are no longer interested in building their website. The freelancer needs to delete the page so that it does not clog up his workspace.
+- **Actors**: Lisa
+- **Flow**:
+  1. Lisa opens her project workspace.
+  2. Lisa presses the "Project Settings" button.
+  3. Lisa navigates to the bottom of the page where it says "Delete Project" and presses the button.
+  4. After ensuring that this decision is final, Lisa is returned to her workspace and the website is not there.
+  - **Connected Business Requirement**: BR2 (Enhance Customization and Client Control)
