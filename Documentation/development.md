@@ -23,5 +23,11 @@
 
 ## Replicating the Development Environment
     - Install the enJerneering UI Builder via your Git manager.
+        This can look like...
+        - Copy the repository link (https://github.com/enJerneering/enJerneering-ui.git) to clipboard.
+        - Make sure git is installed on your system.
+        - Go to the directory you want to clone the repository in.
+        - Right click and select "Open Git Bash."
+        - Type the command "git clone https://github.com/enJerneering/enJerneering-ui.git".
     - Ensure .env is added to the root of this project.
     - From the terminal, run 'npm i' to install dependencies, then 'npm run dev' to start the server.
