@@ -1,3 +1,5 @@
+
+```mermaid
 erDiagram
     User ||--o{ Project : "owns"
     User ||--o{ AffiliateUser : "is"
@@ -133,3 +135,4 @@ erDiagram
         DateTime lastUpdated
         DateTime createdAt
     }
+```
