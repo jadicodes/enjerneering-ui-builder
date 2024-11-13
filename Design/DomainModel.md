@@ -1,42 +1,135 @@
-```mermaid
-classDiagram
-    class WebsiteHub {
+erDiagram
+    User ||--o{ Project : "owns"
+    User ||--o{ AffiliateUser : "is"
+    AffiliateUser {
+        String id PK
+        String userId FK
+        AffiliateUserRole role
+        String referralLink
+        String affiliateAdminId FK
+        DateTime lastUpdated
+        DateTime createdAt
+    }
+    AffiliateUser ||--o{ AffiliateClientUser : "hasMany"
+    AffiliateUser ||--o{ Project : "hasMany"
+    AffiliateUser ||--o{ AffiliatePerformance : "hasOne"
+    AffiliateUser ||--o{ AffiliateData : "hasOne"
+    AffiliateUser ||--|| AffiliateUser : "belongsTo"
+
+    AffiliateClientUser {
+        String id PK
+        String userId FK
+        AffiliateClientUserStatus status
+        String affiliateOwnerId FK
+        DateTime lastUpdated
+        DateTime createdAt
+    }
+    AffiliateClientUser ||--o{ Project : "hasMany"
+
+    Project {
+        String id PK
+        String userId FK
+        String title
+        String description
+        String domain
+        String[] keywords
+        String configurationDetails
+        String thumbnail
+        String url
+        ProjectStatus status
+        String[] serviceAreas
+        String seoTitle
+        String seoDescription
+        String[] seoKeywords
+        String seoImage
+        String language
+        String region
+        String primaryColor
+        String fontFamily
+        String repositoryUrl
+        String deploymentUrl
+        DateTime lastUpdated
+        DateTime createdAt
+    }
+    Project ||--o{ Design : "hasMany"
+    Project ||--o{ Service : "hasMany"
+
+    Service {
+        String id PK
+        String name
+        String description
+        String[] areas
+        String[] images
+        String projectId FK
+        DateTime lastUpdated
+        DateTime createdAt
     }
 
-    class Workshop {
+    Design {
+        String id PK
+        DesignStatus status
+        String projectId FK
+        DateTime lastUpdated
+        DateTime createdAt
+    }
+    Design ||--o{ Layout : "hasOne"
+    Design ||--o{ Page : "hasMany"
+
+    Layout {
+        String id PK
+        String configuration
+        String designId FK
+        DateTime lastUpdated
+        DateTime createdAt
+    }
+    Layout ||--o{ Layer : "hasMany"
+
+    Page {
+        String id PK
+        String title
+        Boolean seoEnabled
+        String seoTitle
+        String seoDescription
+        String[] seoKeywords
+        String seoImage
+        String configuration
+        String designId FK
+        DateTime lastUpdated
+        DateTime createdAt
+    }
+    Page ||--o{ Layer : "hasMany"
+
+    Layer {
+        String id PK
+        String componentType
+        Int styleVariant
+        String content
+        String configuration
+        String pageId FK
+        String layoutId FK
+        DateTime lastUpdated
+        DateTime createdAt
     }
 
-    class EditExistingProject {
+    AffiliatePerformance {
+        String id PK
+        Int clicks
+        Int sales
+        Float revenue
+        DateTime date
+        String affiliateUserId FK
+        DateTime lastUpdated
+        DateTime createdAt
     }
 
-    class CreateNewProject {
+    AffiliateData {
+        String id PK
+        String companyName
+        String description
+        String message
+        String logo
+        String website
+        String affiliateUserId FK
+        DateTime lastUpdated
+        DateTime createdAt
     }
-
-    class StartWithTemplate {
-    }
-
-    class StartFromScratch {
-    }
-
-    class ComponentSelection {
-    }
-
-    class PageBuilder {
-    }
-
-    class SaveToJSON {
-    }
-
-    WebsiteHub --> Workshop : "Log in to access"
-    Workshop --> EditExistingProject : "Edit existing project"
-    Workshop --> CreateNewProject : "Create new project"
-    CreateNewProject --> StartWithTemplate : "Start with template"
-    CreateNewProject --> StartFromScratch : "Start from scratch"
-    StartFromScratch --> ComponentSelection : "Select components"
-    StartFromScratch --> PageBuilder : "Build pages"
-    PageBuilder --> SaveToJSON : "Save project as JSON"
-    SaveToJSON --> CreateNewProject : "Project data saved"
-    EditExistingProject --> ComponentSelection : "Modify components"
-    EditExistingProject --> PageBuilder : "Modify pages"
-
-    SaveToJSON --> WebsiteHub : "Framework code generated"
