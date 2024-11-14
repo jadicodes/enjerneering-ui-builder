@@ -1,5 +1,18 @@
 # Development
 
+## Docker
+Install Prerequisites
+
+Download and install Docker Desktop (v4.35 is tested)
+        https://www.docker.com/products/docker-desktop
+    
+You can follow the instructions if you are stuck at some point.
+            Windows: https://docs.docker.com/docker-for-windows/install/
+            Mac: https://docs.docker.com/docker-for-mac/install/
+
+Run the Docker executable and start when installing is done.
+
+
 ## Required Technologies
 - Latest versions of [Node.js](https://nodejs.org/en) and npm
 - Visual Studio Code IDE
