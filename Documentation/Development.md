@@ -1,4 +1,4 @@
-# Development
+# Replicating via Docker
 
 ## Getting Started with Docker
 
