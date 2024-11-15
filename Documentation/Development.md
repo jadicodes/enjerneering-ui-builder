@@ -1,17 +1,91 @@
 # Development
 
-## Docker
-Install Prerequisites
+## Getting Started with Docker
 
-Download and install Docker Desktop (v4.35 is tested)
-        https://www.docker.com/products/docker-desktop
-    
-You can follow the instructions if you are stuck at some point.
-            Windows: https://docs.docker.com/docker-for-windows/install/
-            Mac: https://docs.docker.com/docker-for-mac/install/
+This guide walks you through setting up and running the application using Docker.
 
-Run the Docker executable and start when installing is done.
+### Prerequisites
 
+- **Docker**: Make sure Docker is installed on your system.
+  - [Download Docker Desktop](https://www.docker.com/products/docker-desktop) for Windows and macOS.
+  - For Linux, use your distribution’s package manager:
+    ```bash
+    sudo apt-get update
+    sudo apt-get install -y docker.io
+    ```
+  - Verify the installation:
+    ```bash
+    docker --version
+    ```
+
+## Steps to Run the Application with Docker
+
+### 1. Clone the Repository
+
+   Clone the project repository from GitHub:
+   ```bash
+   git clone https://github.com/enJerneering/enJerneering-ui-builder.git
+   cd enJerneering-ui-builder
+   ```
+
+### 2. Request and Set Up the `.env` File
+
+   - **Request** the `.env` file from Jerrod at enJerneering.
+   - Once approved and received, **place the `.env` file in the root directory** of the project.
+   - This file contains essential environment variables needed for the application.
+
+### 3. Build the Docker Image
+
+   Build the Docker image from the `Dockerfile`:
+   ```bash
+   docker build -t enjerneering_ui_kit .
+   ```
+   - The `-t enjerneering_ui_kit` tags the image with a name, making it easier to refer to later.
+
+### 4. Run the Docker Container
+
+   Start the container, loading environment variables from `.env` and mapping port 3000:
+   ```bash
+   docker run --env-file .env -p 3000:3000 enjerneering_ui_kit
+   ```
+   - `--env-file .env` loads environment variables.
+   - `-p 3000:3000` maps port 3000 on your local machine to port 3000 in the container.
+
+### 5. Access the Application
+
+   Open a web browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
+
+### 6. Stop the Docker Container
+
+   - To stop the container running in the foreground, press `CTRL+C`.
+   - If it’s running in detached mode, list running containers and stop it with:
+     ```bash
+     docker ps        # Lists running containers
+     docker stop <container_id>
+     ```
+     Replace `<container_id>` with the actual container ID.
+
+### Additional Docker Commands
+
+   - **View Running Containers**:
+     ```bash
+     docker ps
+     ```
+   - **View Container Logs**:
+     ```bash
+     docker logs <container_id>
+     ```
+   - **Remove a Stopped Container**:
+     ```bash
+     docker rm <container_id>
+     ```
+   - **Remove the Docker Image**:
+     ```bash
+     docker rmi enjerneering_ui_kit
+     ```
+
+--- 
+# Manual Environment Setup
 
 ## Required Technologies
 - Latest versions of [Node.js](https://nodejs.org/en) and npm
