@@ -1,3 +1,6 @@
+# Setting Up the Development Environment
+To set up the development environment, you will need the source code. That can be found [here](https://github.com/enJerneering/enJerneering-ui-builder), or https://github.com/enJerneering/enJerneering-ui-builder.
+
 # Replicating via Docker
 
 ## Getting Started with Docker
@@ -109,12 +112,13 @@ This guide walks you through setting up and running the application using Docker
     - Database testing would currently be to manually check that the database information if formatted correctly
 
 ## Replicating the Development Environment
-    - Install the enJerneering UI Builder via your Git manager.
-        This can look like...
-        - Copy the repository link (https://github.com/enJerneering/enJerneering-ui.git) to clipboard.
-        - Make sure git is installed on your system.
-        - Go to the directory you want to clone the repository in.
-        - Right click and select "Open Git Bash."
-        - Type the command "git clone https://github.com/enJerneering/enJerneering-ui.git".
-    - Ensure .env is added to the root of this project.
-    - From the terminal, run 'npm i' to install dependencies, then 'npm run dev' to start the server.
+  Install the enJerneering UI Builder via your Git manager.
+  This is how it looks in Git Bash:
+  - Install git to your system.
+  - Copy the repository link (https://github.com/enJerneering/enJerneering-ui.git) to clipboard.
+  - Make sure git is installed on your system.
+  - Go to the directory you want to clone the repository in.
+  - Right click and select "Open Git Bash."
+  - Type the command "git clone https://github.com/enJerneering/enJerneering-ui.git".
+  - Ensure .env is added to the root of this project.
+  - From the terminal, run 'npm i' to install dependencies, then 'npm run dev' to start the local server.
