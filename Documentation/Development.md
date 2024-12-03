@@ -1,5 +1,5 @@
 # Setting Up the Development Environment
-To set up the development environment, you will need the source code. That can be found [here](https://github.com/enJerneering/enJerneering-ui-builder), or https://github.com/enJerneering/enJerneering-ui-builder.
+To set up the development environment, you will need the source code. That can be found [here](https://github.com/enJerneering/enJerneering-ui-builder), or https://github.com/enJerneering/enJerneering-ui-builder. For now, you also will need the [Web Info Viewer](https://github.com/PiersonSilver/WebInfoViewerCapstone) repository, which is shown in more detail [here](https://github.com/jadicodes/enjerneering-ui-builder/blob/master/Documentation/User.md).
 
 # Replicating via Docker
 
