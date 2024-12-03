@@ -2,6 +2,8 @@
 
 This document is meant to serve as a guide on how to deploy, start, stop, and troubleshoot a running system for the enJerneering UI Builder, which includes Vercel, Prisma ORM, Supabase, React, Node.js, Clerk Auth, and PostgreSQL.
 
+This project is currently split over two repositories, the [source code](https://github.com/enJerneering/enJerneering-ui-builder) and the [Web Info Viewer](https://github.com/PiersonSilver/WebInfoViewerCapstone). Both of these are needed to maintain a full user experience. For the specifics on using these together, read the information in the [User Manual](https://github.com/jadicodes/enjerneering-ui-builder/blob/master/Documentation/User.md).
+
 ---
 
 ## **1. Overview of the Deployment Environment**
@@ -119,6 +121,7 @@ This section explains where each folder and file should go and what each compone
 1. **Deployment on Vercel**: Deployments happen automatically with new commits or can be triggered manually via the Vercel dashboard.
 2. **Database with Supabase**: Once configured, Supabase runs continuously without manual intervention.
 3. **Local Testing**:
+   - Follow along with the Docker instructions found [here](https://github.com/jadicodes/enjerneering-ui-builder/blob/master/Documentation/Development.md).
    - Run `npm install` to install dependencies.
    - Run `npm run dev` to start a local development server for testing.
 
