@@ -94,6 +94,8 @@ This guide walks you through setting up and running the application using Docker
 - Latest versions of [Node.js](https://nodejs.org/en) and npm
 - Visual Studio Code IDE
 
+# Main: ***Enjerneering Project***
+
 ## Folder Structure
 ### App Folder Holds the Next.js Project is Located
 - Each non-hidden (leading underscore) folder within app has a page.tsx file that runs the specific page of the site
@@ -122,3 +124,31 @@ This guide walks you through setting up and running the application using Docker
   - Type the command "git clone https://github.com/enJerneering/enJerneering-ui.git".
   - Ensure .env is added to the root of this project.
   - From the terminal, run 'npm i' to install dependencies, then 'npm run dev' to start the local server.
+
+# Secondary: ***WebInfoVeiwer Project***
+
+## Folder Structure
+### The 'main' Folder holds the Main 'index.js' File which Runs the Express Viewer
+- HTML Code strings are stored within public/componentHTML/...
+  - content folder has files which hold the code which takes in data from supabase and inputs it into HTML code that can be displayed
+  - style folder has files that hold classes that return a string that is used as the CSS for the express output
+- Most Code is within those few files, with the additional files/folders being there to allow the app to run as a whole
+
+## Important Files
+- The supabase folder holds the supabase URL and Key within the server and client files 
+- package.json holds the dependencies to be installed using npm and the premade scripts to run different testing environments
+
+# How to Test
+- Run 'npm run viewer' in the VSCode terminal, which will make the localhost link active, so it can be redirected to by the main project
+- In this viewer environment, you can either go through the Enjerneering app and be linked to it from the 'Save and View Webpage' Button in builder or use localhost:4000/${projectID} for whatever project you want to test from supabase
+    - This testing would be to Manually see that the information is correct for the project details and web elements that were added in builder if you click into the viewer using the 'Go to Viewer' button
+
+## Replicating the Development Environment
+  Install the WebInfoViewer Project via your Git manager.
+  This is how it looks in Git Bash:
+  - Install git to your system.
+  - Copy the repository link (https://github.com/PiersonSilver/WebInfoViewerCapstone.git) to clipboard.
+  - Go to the directory you want to clone the repository in.
+  - Right click and select "Open Git Bash."
+  - Type the command "git clone https://github.com/PiersonSilver/WebInfoViewerCapstone.git".
+  - From the terminal, run 'npm i' to install dependencies, then 'npm run viewer' to start the local server.
