@@ -109,9 +109,9 @@ This guide walks you through setting up and running the application using Docker
 - package.json holds the dependencies to be installed using npm and the premade scripts to run different testing environments
 
 # How to Test
-- Run 'npm run dev' in the VSCode terminal, which will give a localhost link to access a test server of the site
+- Run 'npm test' and unit tests will run.
 - In this test environment, UI elements can be tested by just clicking through pages
-    - Database testing would currently be to manually check that the database information if formatted correctly
+    - Database testing would currently be to manually check that the database information is formatted correctly
 
 ## Replicating the Development Environment
   Install the enJerneering UI Builder via your Git manager.
