@@ -1,14 +1,21 @@
 # User
 ***No end user runnable environment without the .env file exists as of now, so this guide will assume node.js and a working .env file are present***
-## Step 1: Run the Test/Dev Environment
+***This docuemnt also assumes that the user has both projects cloned from GitHub, as there is no current external environment for both projects***
+## Step 1: Run the Local Environments for Each Project 
+### Main: ***Enjerneering UI Builder***
 ![image](https://github.com/user-attachments/assets/ac468ae7-1769-4925-9f99-0bbc38b84517)
 - With node.js installed and the .env using the 'npm run dev' command in the VSCode terminal will give you a localhost:3000 link which you can control click to be taken to a test/dev environment of the site
-- This site will allow you to explore the main feature of iteration 1
+- This site will allow you to explore the main site of the project
+### Secondary: ***WebInfoViewer Project***
+![image](https://github.com/user-attachments/assets/3aa9a2c9-bb2c-4205-85d2-425e2e9483e1)
+- With node.js installed, use the 'npm run viewer' command within the VSCode terminal to begin running the localhost:4000 server, which will later be used by the main Enjerneering project
+- This site can be used manually, but it will be used as a redirect from the main project, so there's no need to control click into it 
 
 ## Step 2: Explore the Workspace Page
-![image](https://github.com/user-attachments/assets/05578a8a-c74b-4fbb-a94a-3246cbdb361f)
+![image](https://github.com/user-attachments/assets/ff0bdc5e-138e-41ef-b818-51f8864d8358)
 - When you control click into the localhost:3000, you will be taken to a login page for clerk auth, which will then redirect you to this page. This is the workspace page, which is the main dashboard of the projects a user may have
-- There are 2 example projects that show what the layout would look like. Using the triple dot on the bottom right of their card, you will be given 3 options (edit details, preview, and delete project), with delete project being the only current working option. This will delete the project from the page and the database
+- This screen will have no projects unless the user has already made a project that has been saved to the database
+  - Using the triple dot on the bottom right of a project's card, you will be given 3 options edit details, preview, and delete website, all of which are working
 - One the left side of the screen, 'Deleted Files' will take you to a page that would hold the deleted project files and 'Settings' will take you to a page that allows you to see your account details
 - The yellow 'Create New Website' Button in the top right of the screen will take you to the next step in the process
 
@@ -37,9 +44,32 @@
 ## Step 6: Checking on Your Created Project
 ![image](https://github.com/user-attachments/assets/82385d32-d16b-4144-bb8e-0a5cd9544575)
 - Once you have continued from the Website Information page, your project will be sent to the database and you will be redirected to the builder page, as shown in the screenshot.
-- This page is currently very limited in functionality and will be built up in future iterations.
-- You can, however, check on your created project if you return to the 'Workspaces' page, which can be done by clicking the back button to the left of where it says 'UI Builder 2024' in the top left.
-![image](https://github.com/user-attachments/assets/ccffeed3-55a8-4123-94e2-a67e5cbdb3fa)
-- As you can see, your project that you created will now show in the dashboard, as well as in the database!
+- This page is currently limited. You can add many things, but only a few will be sent to the preview screen
 
-### **With that, you have successfully Created a Project and Tested to see that it has been added to both the Dashboard and Database!**
+## Step 7: Add Your Webpage Elements
+![image](https://github.com/user-attachments/assets/e25fdd98-fc10-4ff2-9411-58f28685d278)
+- Elements from the left sidebar can be added by clicking through their menus.
+- The elements will be added to your builder screen in the middle 
+
+## Step 8: Make it Your Own!
+![image](https://github.com/user-attachments/assets/281f0a21-7ab2-4cb1-8e00-e1f8056d6cfa)
+- Using the right side bar, between the 'Variants' and 'Change Content' tabs, you will be able to make your elements your own with your logo and whatever you'd like for text, links, etc.
+- Some formatting (spacing within elements, element spacing on the page, etc.) is still being worked on and will be improved in the future
+
+## Step 9: Save and View the Webpage
+### Click this Button at the top of the Builder page
+![image](https://github.com/user-attachments/assets/409c97b8-a97e-4538-ba29-e664f4e31a6a)
+- This button will save the data from your builder within the database and pull that data into the WebInfoViewer project to display a rough preview of your page, which you will be redirected to in another tab
+### View Your Webpage 
+![image](https://github.com/user-attachments/assets/a896a548-a3ad-43de-adde-23e938eda557)
+- The (very) rough preview of your webpage will be shown in the localhost:4000 server from the WebInfoViewer
+  - The Footer and Textbox are the only elements that are previewed on this screen since the navbar only features things that haven't yet been implimented (links to different pages and AI Assist button) and this preview project is temporary
+  - Textbox is placed above footer for a better viewing experience and the footer's background color is lilac to show the differentiation of the elements
+- The 'View Details' button at the bottom will take you to a page where you can view the information from your project 
+### View Project Details
+![image](https://github.com/user-attachments/assets/838d261b-fec7-4c34-aa30-43d0f8e6e066)
+- Your Project Data will show on this screen, including: General Info, Additional/Optional Data, Services (if you added them), and Project Thumbnail
+  - As you can see, I have some pretty interesting Project Data 
+- This page also includes a button that will take you back to the web page viewer screen
+
+### **With that, you have successfully Created a Project, Built a Page in the Builder, and Created a Preview of the Webpage!**
