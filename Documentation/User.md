@@ -1,6 +1,6 @@
 # User
-***No end user runnable environment without the .env file exists as of now, so this guide will assume node.js and a working .env file are present***
-***This docuemnt also assumes that the user has both projects cloned from GitHub, as there is no current external environment for both projects***
+***No end user runnable environment without the .env file exists as of now, so this guide will assume node.js and a working .env file are present.***
+***This document also assumes that the user has both projects cloned from GitHub, as there is no current external environment for both projects.***
 ## Step 1: Run the Local Environments for Each Project 
 ### Main: ***Enjerneering UI Builder***
 ![image](https://github.com/user-attachments/assets/ac468ae7-1769-4925-9f99-0bbc38b84517)
@@ -8,7 +8,7 @@
 - This site will allow you to explore the main site of the project
 ### Secondary: ***WebInfoViewer Project***
 ![image](https://github.com/user-attachments/assets/3aa9a2c9-bb2c-4205-85d2-425e2e9483e1)
-- With node.js installed, use the 'npm run viewer' command within the VSCode terminal to begin running the localhost:4000 server, which will later be used by the main Enjerneering project
+- With node.js installed, use the 'npm run viewer' command within the VSCode terminal to begin running the localhost:3000 server, which will later be used by the main Enjerneering project
 - This site can be used manually, but it will be used as a redirect from the main project, so there's no need to control click into it 
 
 ## Step 2: Explore the Workspace Page
