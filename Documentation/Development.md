@@ -94,7 +94,7 @@ This guide walks you through setting up and running the application using Docker
 - Latest versions of [Node.js](https://nodejs.org/en) and npm
 - Visual Studio Code IDE
 
-# Main: ***Enjerneering Project***
+# Main: ***Enjerneering UI Builder***
 
 ## Folder Structure
 ### App Folder Holds the Next.js Project is Located
