@@ -4,7 +4,7 @@
 2025/01/21/11:00 am
 ## Meeting End Time
 
-2025/01/21/11:00 am
+2025/01/21/12:00 pm
 ## Location/Medium
 Online, Discord
 ## Present
