@@ -37,3 +37,6 @@ Payton:
 Jake:
 - Ensure environment is ready to go for class
 - Approve ui=fix PR
+
+## Progress Made
+"Required" error message displays under several more fields. For example, inside of the WebInformationForm, if the user does not input a Favicon or Website URL, it will display the proper error message.
