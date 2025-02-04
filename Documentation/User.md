@@ -80,5 +80,9 @@
   - Some of the styling changes a bit when going to the preview, since the relative sizing is different when transferred to the full screen preview
 - The 'Back to Main Page' button at the bottom will take you to main page of the WebInfoViewer, which will allow you to check other information that corresponds to the project you created. 
 
+### Example of Multiple Sections being shown in order
+![image](https://github.com/user-attachments/assets/c0655ca5-3fb4-4f33-96d3-80795808c47a)
+*The Sections are Weird looking because the CSS in the tailwind for enjerneering isn't made for a full screen webpage, but for the builder preview. This will be fixed in the next iteration*
+
 
 ### **With that, you have successfully Created a Project, Built a Page in the Builder, and Created a Preview of the Webpage!**
