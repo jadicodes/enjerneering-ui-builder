@@ -142,6 +142,7 @@ This guide walks you through setting up and running the application using Docker
 - Run 'npm run viewer' in the VSCode terminal, which will make the localhost link active, so it can be redirected to by the main project
 - In this viewer environment, you can either go through the Enjerneering app and be linked to it from the 'Save and View Webpage' Button in builder or use localhost:4000/${projectID} for whatever project you want to test from supabase
     - This testing would be to Manually see that the information is correct for the project details and web elements that were added in builder if you click into the viewer using the 'Go to Viewer' button
+- To get a live test coverage report, run 'npx vitest run --coverage'. This will give an in-depth breakdown as to what lines, functions, and files are tested vs what is not tested.
 
 ## Replicating the Development Environment
   Install the WebInfoViewer Project via your Git manager.
