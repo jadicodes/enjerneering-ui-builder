@@ -128,19 +128,22 @@ This guide walks you through setting up and running the application using Docker
 # Secondary: ***WebInfoVeiwer Project***
 
 ## Folder Structure
-### The 'main' Folder holds the Main 'index.js' File which Runs the Express Viewer
-- HTML Code strings are stored within public/componentHTML/...
-  - content folder has files which hold the code which takes in data from supabase and inputs it into HTML code that can be displayed
-  - style folder has files that hold classes that return a string that is used as the CSS for the express output
-- Most Code is within those few files, with the additional files/folders being there to allow the app to run as a whole
+### The app folder holds the main pages that are running, as well as many components
+- the pages that are shown are the 'page.tsx' within the folders from app/... to app/viewer/[projectId]/[pageTitle]
+  - pages in between these two folders redirect you either back to the main page.tsx, or to the full viewer depending on the information given
+- Components and their data files are stored within app/_sections/... for each component
+- Helper files are held within different places depending on what they help with
+  - Button helper files are within app/_sections/ButtonActions and aap/_sections/types for example
 
 ## Important Files
-- The supabase folder holds the supabase URL and Key within the server and client files 
+- The .env file holds all of the important information that will be used to pull and push data correctly. 
+- The supabase folder holds the server and client files 
 - package.json holds the dependencies to be installed using npm and the premade scripts to run different testing environments
 
 # How to Test
-- Run 'npm run viewer' in the VSCode terminal, which will make the localhost link active, so it can be redirected to by the main project
-- In this viewer environment, you can either go through the Enjerneering app and be linked to it from the 'Save and View Webpage' Button in builder or use localhost:4000/${projectID} for whatever project you want to test from supabase
+- Run 'npm run dev' in the VSCode terminal, which will make the localhost link active, so it can be used for debugging
+  - The UI Builder project uses the vercel hosted Web Viewer, which doesn't require running the local
+- In this viewer environment, you will be taken to a debug page, which allows you to enter the projectId for whatever project you want to test from supabase, and give you the rendered webpage in the viewer.
     - This testing would be to Manually see that the information is correct for the project details and web elements that were added in builder if you click into the viewer using the 'Go to Viewer' button
 - To get a live test coverage report, run 'npx vitest run --coverage'. This will give an in-depth breakdown as to what lines, functions, and files are tested vs what is not tested.
 
@@ -148,8 +151,9 @@ This guide walks you through setting up and running the application using Docker
   Install the WebInfoViewer Project via your Git manager.
   This is how it looks in Git Bash:
   - Install git to your system.
-  - Copy the repository link (https://github.com/PiersonSilver/WebInfoViewerCapstone.git) to clipboard.
+  - Copy the repository link (https://github.com/PiersonSilver/enJerneering-web-viewer.git) to clipboard.
   - Go to the directory you want to clone the repository in.
   - Right click and select "Open Git Bash."
-  - Type the command "git clone https://github.com/PiersonSilver/WebInfoViewerCapstone.git".
-  - From the terminal, run 'npm i' to install dependencies, then 'npm run viewer' to start the local server.
+  - Type the command "git clone https://github.com/PiersonSilver/enJerneering-web-viewer.git".
+  - From the terminal, run 'npm i' to install dependencies, then 'npm run dev' to start the local server.
+    - The project is run on vercel, so this is only necessary if you want to run locally.
