@@ -145,7 +145,7 @@ This guide walks you through setting up and running the application using Docker
   - The UI Builder project uses the vercel hosted Web Viewer, which doesn't require running the local
 - In this viewer environment, you will be taken to a debug page, which allows you to enter the projectId for whatever project you want to test from supabase, and give you the rendered webpage in the viewer.
     - This testing would be to Manually see that the information is correct for the project details and web elements that were added in builder if you click into the viewer using the 'Go to Viewer' button
-- To get a live test coverage report, run 'npx vitest run --coverage'. This will give an in-depth breakdown as to what lines, functions, and files are tested vs what is not tested.
+- To get a live test coverage report, run 'npm run test:coverage'. This will give an in-depth breakdown as to what lines, functions, and files are tested vs what is not tested.
 
 ## Replicating the Development Environment
   Install the WebInfoViewer Project via your Git manager.
