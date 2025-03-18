@@ -5,11 +5,10 @@
 ### Main: ***Enjerneering UI Builder***
 ![image](https://github.com/user-attachments/assets/ac468ae7-1769-4925-9f99-0bbc38b84517)
 - With node.js installed and the .env using the 'npm run dev' command in the VSCode terminal will give you a localhost:3000 link which you can control click to be taken to a test/dev environment of the site
+  - within the .env, add NEXT_PUBLIC_WEB_VIEWER="https://enjerneering-web-viewer.vercel.app/" to the end of the file
 - This site will allow you to explore the main site of the project
-### Secondary: ***WebInfoViewer Project***
-![image](https://github.com/user-attachments/assets/3aa9a2c9-bb2c-4205-85d2-425e2e9483e1)
-- With node.js installed, use the 'npm run viewer' command within the VSCode terminal to begin running the localhost:3000 server, which will later be used by the main Enjerneering project
-- This site can be used manually, but it will be used as a redirect from the main project, so there's no need to control click into it 
+### Secondary: ***Web Viewer Project***
+- The Web Viewer is Now Hosted within Vercel and does not require user setup
 
 ## Step 2: Explore the Workspace Page
 ![image](https://github.com/user-attachments/assets/ff0bdc5e-138e-41ef-b818-51f8864d8358)
@@ -64,25 +63,23 @@
 ### Then you can choose the Section you want
 ![image](https://github.com/user-attachments/assets/2c6f1863-f673-4a5d-a880-70bfceb62ca6)
 ### You can then design your Section to your heart's content!
-![image](https://github.com/user-attachments/assets/e7c09d67-c861-4348-999b-8a15f18010e2)
-- For this example, I chose to use the header along with the footer of the global components
-  - The Hero Header, Main Content, Contact, and Call To Action sections are all working
-  - Currently, only the first style of each component is fully working, with more to come. 
+![image](https://github.com/user-attachments/assets/9545f529-d9d4-4cd0-8e59-219ab269d403)
+### Enjoy Making Fun Buttons
+![image](https://github.com/user-attachments/assets/2bfa8256-f263-4e36-b1c4-7ece956e2509)
+### You can also make as many Pages as you'd like! 
+![image](https://github.com/user-attachments/assets/ab7fc0ea-2b62-4136-9da3-0122ab65a358)
+
 
 ## Step 10: Save and View the Webpage
 ### Click this Button at the top of the Builder page
-![image](https://github.com/user-attachments/assets/409c97b8-a97e-4538-ba29-e664f4e31a6a)
+![image](https://github.com/user-attachments/assets/43f4e0e4-1528-46e2-8d5c-ee684871b042)
 - This button will save the data from your builder within the database and pull that data into the WebInfoViewer project to display a preview of your page, which you will be redirected to in another tab
 ### View Your Webpage 
-![image](https://github.com/user-attachments/assets/c71ec8ba-81e5-4ec1-9bfc-7e4da960c11a)
-- The preview of your webpage will be shown in the localhost:4000 server from the WebInfoViewer
+![image](https://github.com/user-attachments/assets/2352a400-bb57-40d5-ad54-1a05d8085b6c)
+- The preview of your webpage will be shown in the Web Viewer's Vercel Page
   - Currently, the Footer and Textbox within the Global Configurations, and the Hero Header, Main Content, Contact, and Call To Action Sections within the pages section. All of these will be shown as intended and as designed in the builder.
-  - Some of the styling changes a bit when going to the preview, since the relative sizing is different when transferred to the full screen preview
-- The 'Back to Main Page' button at the bottom will take you to main page of the WebInfoViewer, which will allow you to check other information that corresponds to the project you created. 
-
-### Example of Multiple Sections being shown in order
-![image](https://github.com/user-attachments/assets/c0655ca5-3fb4-4f33-96d3-80795808c47a)
-*The Sections are Weird looking because the CSS in the tailwind for enjerneering isn't made for a full screen webpage, but for the builder preview. This will be fixed in the next iteration*
-
+### Explore Your Pages
+![image](https://github.com/user-attachments/assets/c2998f50-40ed-4335-bfb0-822b15f677c1)
+- Using the footer, or buttons with internal pathing, for navigation, you can explore the pages that you created
 
 ### **With that, you have successfully Created a Project, Built a Page in the Builder, and Created a Preview of the Webpage!**
