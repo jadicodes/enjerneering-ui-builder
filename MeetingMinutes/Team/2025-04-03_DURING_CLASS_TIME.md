@@ -1,4 +1,4 @@
-# Week of 4/3/2025 - 4/3/2025
+# In Class Meeting 4/3/2025
 ## Meeting Start Time
 2025/4/03/11:00 am
 
