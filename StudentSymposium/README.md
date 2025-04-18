@@ -21,5 +21,6 @@ technology and development using simpler terms. The judges and visitors were ver
 ## Pierson's Experience
 
 ## Jake's Experience
+I feel like the symposium for computer science students is very rough. This is due to the fact that everything was really focused around research projects while we are building a program. I would love to see something that highlights this within the symposium for students like ourselves. Outside of this, being able to discuss our project was enjoyable as it did give practice to discussing programming and had us thinking about our project in a different light.
 
 ## Payton's Experience
