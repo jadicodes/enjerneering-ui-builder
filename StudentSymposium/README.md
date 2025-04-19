@@ -24,3 +24,4 @@ technology and development using simpler terms. The judges and visitors were ver
 I feel like the symposium for computer science students is very rough. This is due to the fact that everything was really focused around research projects while we are building a program. I would love to see something that highlights this within the symposium for students like ourselves. Outside of this, being able to discuss our project was enjoyable as it did give practice to discussing programming and had us thinking about our project in a different light.
 
 ## Payton's Experience
+I enjoyed my time at the symposium, however it felt very long due to the large gaps inbetween getting to share our project with others. Most people seemed more familiar with research projects and the judges definitely felt uninterested during our pitch. I felt like we got more interest from curious professors rather than the Judges.
