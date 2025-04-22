@@ -51,6 +51,9 @@
 - The elements will be added to your builder screen in the middle 
 
 ## Step 8: Make it Your Own! - *Part 1: Global Configurations*
+### Global Navbar
+![image](https://github.com/user-attachments/assets/57f4a76b-01ac-460a-99fe-7482530d8096)
+### Global Footer
 ![image](https://github.com/user-attachments/assets/d872a2fe-c030-405c-9b52-7250e7cb3ff2)
 - Using the right side bar, between the 'Variants' and 'Change Content' tabs, you will be able to make your elements your own with your logo and whatever you'd like for text, links, etc.
 - Some formatting (spacing within elements, element spacing on the page, etc.) is still being worked on and will be improved in the future
@@ -70,7 +73,7 @@
 ![image](https://github.com/user-attachments/assets/ab7fc0ea-2b62-4136-9da3-0122ab65a358)
 
 
-## Step 10: Save and View the Webpage
+## Step 10A: Save and View the Webpage
 ### Click this Button at the top of the Builder page
 ![image](https://github.com/user-attachments/assets/43f4e0e4-1528-46e2-8d5c-ee684871b042)
 - This button will save the data from your builder within the database and pull that data into the WebInfoViewer project to display a preview of your page, which you will be redirected to in another tab
@@ -82,4 +85,17 @@
 ![image](https://github.com/user-attachments/assets/c2998f50-40ed-4335-bfb0-822b15f677c1)
 - Using the footer, or buttons with internal pathing, for navigation, you can explore the pages that you created
 
-### **With that, you have successfully Created a Project, Built a Page in the Builder, and Created a Preview of the Webpage!**
+## Step 10B: Publish To GitHub
+### Clicking the 'Publish Site' Button
+![image](https://github.com/user-attachments/assets/b6207f4c-7a81-4c88-98cd-d2ac3bdfaf49)
+- This will give you the option to publish your creation into a GitHub repository by clicking the "Publish to GitHub" button
+- This will ask you to accept a GitHub App, which will create the repository for you
+![image](https://github.com/user-attachments/assets/15f15415-2dec-45fb-87f6-cf87180aaedc)
+- The repository will be named after your project's name
+- You can use this repository to host your website, I chose to use Vercel
+![image](https://github.com/user-attachments/assets/1430c627-97c0-4f3d-8b69-8ac89d5e3319)
+- With this, you are able to host a website using the Github Repo with every aspect being fully functional!! 
+
+
+
+### **With that, you have successfully Created a Project, Built a Page in the Builder, and Created a Real Website with It!**
